@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f9ff"/>
+  <rect x="40" y="30" width="120" height="140" rx="5" fill="#0ea5e9" opacity="0.9"/>
+  <rect x="50" y="40" width="100" height="120" rx="3" fill="white"/>
+  <circle cx="100" cy="100" r="30" fill="#0284c7"/>
+  <text x="100" y="105" font-family="Arial" font-size="14" fill="white" text-anchor="middle">厨房用品</text>
+</svg>
