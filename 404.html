@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <meta http-equiv="refresh" content="0;url=./index.html">
+    <script>
+      // Redirect all unmatched routes to index.html
+      var redirectTo = window.location.pathname;
+      if (redirectTo !== "/") {
+        window.location.replace(window.location.origin + "/super-savers-demo/index.html");
+      }
+    </script>
   </head>
   <body>
-    <p>If you are not redirected automatically, <a href="./index.html">click here</a>.</p>
+    <p>Redirecting...</p>
   </body>
 </html>
